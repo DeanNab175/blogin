@@ -21,11 +21,11 @@
 /*  Fonts  */
 @font-face {
     font-family: 'LatoRegular';
-    src: url('/assets/fonts/Lato-Regular.eot');
-    src: url('/assets/fonts/Lato-Regular.eot?#iefix') format('embedded-opentype'),
-         url('/assets/fonts/Lato-Regular.woff') format('woff'),
-         url('/assets/fonts/Lato-Regular.ttf') format('truetype'),
-         url('/assets/fonts/Lato-Regular.svg#LatoRegular') format('svg');
+    src: url('/assets/fonts/lato-Regular.eot');
+    src: url('/assets/fonts/lato-Regular.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/lato-Regular.woff') format('woff'),
+         url('/assets/fonts/lato-Regular.ttf') format('truetype'),
+         url('/assets/fonts/lato-Regular.svg#LatoRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -33,11 +33,11 @@
 
 @font-face {
     font-family: 'LatoBold';
-    src: url('/assets/fonts/Lato-Bold.eot');
-    src: url('/assets/fonts/Lato-Bold.eot?#iefix') format('embedded-opentype'),
-         url('/assets/fonts/Lato-Bold.woff') format('woff'),
-         url('/assets/fonts/Lato-Bold.ttf') format('truetype'),
-         url('/assets/fonts/Lato-Bold.svg#LatoBold') format('svg');
+    src: url('/assets/fonts/lato-Bold.eot');
+    src: url('/assets/fonts/lato-Bold.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/lato-Bold.woff') format('woff'),
+         url('/assets/fonts/lato-Bold.ttf') format('truetype'),
+         url('/assets/fonts/lato-Bold.svg#LatoBold') format('svg');
     font-weight: normal;
     font-style: normal;
 
