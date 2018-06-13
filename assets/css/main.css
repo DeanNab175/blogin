@@ -1,3 +1,5 @@
+---
+---
 /*
 
 	Template Author : pixelhint.com
@@ -21,11 +23,11 @@
 /*  Fonts  */
 @font-face {
     font-family: 'LatoRegular';
-    src: url('/assets/fonts/lato-Regular.eot');
-    src: url('/assets/fonts/lato-Regular.eot?#iefix') format('embedded-opentype'),
-         url('/assets/fonts/lato-Regular.woff') format('woff'),
-         url('/assets/fonts/lato-Regular.ttf') format('truetype'),
-         url('/assets/fonts/lato-Regular.svg#LatoRegular') format('svg');
+    src: url('{{ site.baseurl }}/assets/fonts/lato-Regular.eot');
+    src: url('{{ site.baseurl }}/assets/fonts/lato-Regular.eot?#iefix') format('embedded-opentype'),
+         url('{{ site.baseurl }}/assets/fonts/lato-Regular.woff') format('woff'),
+         url('{{ site.baseurl }}/assets/fonts/lato-Regular.ttf') format('truetype'),
+         url('{{ site.baseurl }}/assets/fonts/lato-Regular.svg#LatoRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -33,11 +35,11 @@
 
 @font-face {
     font-family: 'LatoBold';
-    src: url('/assets/fonts/lato-Bold.eot');
-    src: url('/assets/fonts/lato-Bold.eot?#iefix') format('embedded-opentype'),
-         url('/assets/fonts/lato-Bold.woff') format('woff'),
-         url('/assets/fonts/lato-Bold.ttf') format('truetype'),
-         url('/assets/fonts/lato-Bold.svg#LatoBold') format('svg');
+    src: url('{{ site.baseurl }}/assets/fonts/lato-Bold.eot');
+    src: url('{{ site.baseurl }}/assets/fonts/lato-Bold.eot?#iefix') format('embedded-opentype'),
+         url('{{ site.baseurl }}/assets/fonts/lato-Bold.woff') format('woff'),
+         url('{{ site.baseurl }}/assets/fonts/lato-Bold.ttf') format('truetype'),
+         url('{{ site.baseurl }}/assets/fonts/lato-Bold.svg#LatoBold') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -216,7 +218,7 @@ ul.main_nav li a:hover{
 .main2 a.read_more i.read_more_arrow{
 	width: 15px;
 	height: 7px;
-	background: url('/assets/img/read_more_arrow.png') no-repeat;
+	background: url('{{ site.baseurl }}/assets/img/read_more_arrow.png') no-repeat;
 	display: inline-block;
 	opacity: 0;
 	margin-left: -5px;
@@ -359,7 +361,7 @@ aside .textwidget p{
 	height: 7px;
 	display: inline-block;
 	margin-bottom: 3px;
-	background: url('/assets/img/pagination.png') no-repeat;
+	background: url('{{ site.baseurl }}/assets/img/pagination.png') no-repeat;
 }
 
 .previous i{
@@ -378,7 +380,7 @@ aside .textwidget p{
 }
 .previous:hover i,
 .next:hover i{
-	background: url('/assets/img/pagination_hover.png') no-repeat; 
+	background: url('{{ site.baseurl }}/assets/img/pagination_hover.png') no-repeat; 
 }
 
 .previous:hover i{
@@ -436,11 +438,11 @@ footer ul.social_profiles li a{
 	height: 40px;
 	margin-right: 16px; 
 	display: inline-block;
-	background: url('/assets/img/sp.png') no-repeat;
+	background: url('{{ site.baseurl }}/assets/img/sp.png') no-repeat;
 }
 
 footer ul.social_profiles li a:hover{
-	background: url('/assets/img/sp_hover.png') no-repeat;
+	background: url('{{ site.baseurl }}/assets/img/sp_hover.png') no-repeat;
 }
 
 footer ul.social_profiles .f a{
