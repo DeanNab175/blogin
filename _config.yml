@@ -2,8 +2,8 @@
 title: Blogin
 email: blogin@example.com
 description: "A simple blog site"
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/blogin" # the subpath of your site, e.g. /blog
+url: "https://deannab175.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 paginate: 2
 paginate_path: "/posts/page:num/"
 
