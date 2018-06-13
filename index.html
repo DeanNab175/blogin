@@ -1,0 +1,41 @@
+---
+layout: default
+page_id: home
+---
+
+{% for post in paginator.posts %}
+    <article class="clearfix">
+        <div class="article_image">
+            <a href="{{ site.baseurl }}{{ post.url }}">
+                <img src="{{ "/assets/img/" | append: post.featured_img | absolute_url }}" alt="" title="">
+            </a>
+        </div>
+        <div class="post">
+            <h1 class="title">
+                <a href="{{ post.url | absolute_url }}">{{ post.title }}</a>
+            </h1>
+            
+            <div>
+                {{ post.excerpt | truncatewords: 50, '...' }}
+            </div>
+
+            <a class="read_more" href="{{ post.url | absolute_url }}">Continue Reading <i class="read_more_arrow"></i> </a>
+        </div>
+    </article>
+{% endfor %}
+
+
+    <nav class="pagination">
+        {% if paginator.previous_page %}
+            {% if paginator.previous_page == 1 %}
+                <a href="{{ '/' | absolute_url }}" class="previous"><i></i>Previous</a>
+            {% else %}
+                <a href="{{ '/posts/page' | append: paginator.previous_page | absolute_url }}" class="previous"><i></i>Previous</a>
+            {% endif %}
+        {% endif %}
+
+        {% if paginator.next_page %}
+            <a href="{{ '/posts/page' | append: paginator.next_page | absolute_url }}" class="next"><i></i>Next</a>
+        {% endif %}
+    </nav><!-- Pagination End -->
+
